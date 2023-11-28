@@ -5,7 +5,7 @@ services:
 #    build:
 #        context: .
 #        dockerfile: Dockerfile
-    image: kusumalubis/laravel-apache
+    image: ifthenuk/laravel10-apache
     container_name: laravel-apps
     ports:
       - "8070:80"
